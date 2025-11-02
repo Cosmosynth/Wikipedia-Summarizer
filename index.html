@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Summarizer 📚</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">📚 Wikipedia Summarizer 🚀</h1>
+
+        <div class="search-frame">
+            <label for="search-entry" class="search-label">Enter Topic:</label>
+            <input type="text" id="search-entry" class="search-entry" placeholder="e.g., Python Programming">
+            <button id="search-btn" class="search-btn">
+                <span class="icon">🔍</span> Search
+            </button>
+        </div>
+
+        <div class="result-frame">
+            <h2 class="result-label">Summary:</h2>
+            <div id="summary-text" class="summary-text">
+                The summary will appear here after your search.
+            </div>
+        </div>
+
+        <div id="status-label" class="status-label">Ready to search! 🎯</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
